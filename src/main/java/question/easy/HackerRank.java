@@ -48,17 +48,25 @@ Int: 42
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        System.out.println("lutfen gerekli bir seyleri gir");
         int i = scan.nextInt();
         double d=scan.nextDouble();
         scan.nextLine();
         String s=scan.nextLine();
 
-        scan.close();
+
+
+
 
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
         System.out.println("Int: " + i);
+
+        scan.close();
     }
+
+
+
 }
 
 
