@@ -8,11 +8,11 @@ public class HR_5_Question {
             Scanner sc=new Scanner(System.in);
             System.out.println("================================");
             for(int i=0;i<3;i++){
-                String s1=sc.next();
+                String s1=sc.next();  //==> burda kullanicidan girdileri aliyorum
                 int x=sc.nextInt();
                 // String'i sol kenara yasla, ilk sütun 15 karakter uzunluğunda
                 // Tam sayıyı 3 haneli olarak yaz, gerekirse başına sıfır ekle
-                System.out.printf("%-15s%03d\n" , s1,x); //bitisik yazilmasi gerekiyormus
+                System.out.printf("%-15s%03d\n" , s1,x); //bitisik yazilmasi gerekiyormus ==> burda da
             }
             System.out.println("================================");
 
